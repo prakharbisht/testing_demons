@@ -1,0 +1,31 @@
+# testing_demons
+
+public class Demo1 
+{
+	private static Scanner sc;
+	public static void main(String[] args) 
+  {
+		sc = new Scanner(System.in);
+		System.out.print("Enter number:-" );
+		int n= sc.nextInt();
+		System.out.println("Your Pattern is :");
+		for(int i=1;i<=n;i++)
+		{	
+			for(int k=1;k<=i;k++)
+				{
+				System.out.print("*");	
+				}
+				System.out.println();
+		}
+		sc.close();
+	}
+}
+
+output:-
+Enter number:- 5
+Your Pattern is :
+*
+* *
+* * *
+* * * *
+* * * * *
